@@ -10,7 +10,10 @@ public class Main {
      */
 
     public static void main(String[] args) {
-        DiscordClientBuilder builder = new DiscordClientBuilder("NzQyMjczMTk1NDEwODQ5Nzk1.XzDtyA._Ewa0JWqGlh1meIajuF1doz_jgQ");
+        /**
+         *  Insert the token for the bot below.
+         */
+        DiscordClientBuilder builder = new DiscordClientBuilder("");
         DiscordClient client = builder.build();
         QuoteList quoteList = new QuoteList();
 
